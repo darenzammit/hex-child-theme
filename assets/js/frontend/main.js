@@ -1,8 +1,13 @@
 (function($) {
 
     var app = {
+        mymodule:  {
+            init: function() {
+                console.log('Hello from mymodule!')
+            }
+        },
         init: function() {
-            alert('hello');
+            app.mymodule.init();
         }
     }
 

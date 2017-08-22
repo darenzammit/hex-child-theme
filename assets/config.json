@@ -6,16 +6,15 @@
             "input":
             {
                 "main": [
-                    "node_modules/swiper/dist/js/swiper.min.js",
-                    "assets/js/frontend/modules/**/*",
+                    "assets/js/frontend/modules/**/*.js",
                     "assets/js/frontend/main.js"
                 ],
                 "customizer": [
-                    "assets/js/customizer/**/*",
+                    "assets/js/customizer/modules/**/*.js",
                     "assets/js/customizer.js"
                 ],
                 "admin": [
-                    "assets/js/admin/**/*",
+                    "assets/js/admin/modules/**/*.js",
                     "assets/js/admin.js"
                 ]
             },
